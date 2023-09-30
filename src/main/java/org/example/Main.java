@@ -14,7 +14,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("find my network interfaces");
+        System.out.println("find your network interfaces");
         for (PcapNetworkInterface networkInterface : Pcaps.findAllDevs()) {
             // 네트워크 인터페이스 정보 출력
             System.out.println("Interface: " + networkInterface.getName());
@@ -24,7 +24,7 @@ public class Main {
             System.out.println();
         }
 
-        System.out.println("to apply interface name (String)");
+        System.out.println("Enter your interface name (String)");
         String interfaceName = sc.next();
         System.out.println("time out (integer) ");
         int timeout = sc.nextInt();
