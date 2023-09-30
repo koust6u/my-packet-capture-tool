@@ -5,7 +5,6 @@ public interface Constant {
     String HEX_STREAM ="Hexstream";
     String NOT_FOUND = "Not Found";
 
-    String MY_IP = "/192.168.0.9";
 
     //---@see Packet ---//
     String DESTINATION_ADDRESS = "Destinationaddress";

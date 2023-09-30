@@ -10,7 +10,6 @@ import org.pcap4j.core.*;
 import org.pcap4j.packet.EthernetPacket;
 import org.pcap4j.packet.Packet;
 
-import static org.example.capture.constant.Constant.MY_IP;
 
 
 @Slf4j
